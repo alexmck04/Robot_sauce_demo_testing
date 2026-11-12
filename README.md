@@ -1,6 +1,6 @@
 # Sauce Demo - Test Automation
 
-# Project Overview
+## Project Overview
 
 This project is an automated web testing suite for Sauce Demo, an online shopping application used for software testing practice.
 
@@ -8,7 +8,7 @@ The project was developed using Python, Robot Framework and SeleniumLibrary to a
 
 The aim of the project is to demonstrate practical knowledge of test automation, functional testing, test case design and validation of expected application behaviour.
 
-# Technologies Used
+## Technologies Used
 
 - Python - Programming language
 - Robot Framework - Test automation framework
@@ -17,25 +17,25 @@ The aim of the project is to demonstrate practical knowledge of test automation,
 - Firefox - Browser used for automated testing
 - Visual Studio Code - Development environment
 
-# Test Coverage
+## Test Coverage
 
 The project contains five test suites covering different areas of the Sauce Demo application.
 
-# 1. Login Tests
+### 1. Login Tests
 
 - Successful login.
 - Login attempt using a locked-out account.
 - Login attempt using an incorrect password.
 - Verification of login error messages.
 
-# 2. Shopping Cart Tests
+### 2. Shopping Cart Tests
 
 - Adding multiple products to the shopping cart.
 - Verifying cart contents and item count.
 - Removing products from the cart.
 - Verifying cart updates after removal.
 
-# 3. Checkout Tests
+### 3. Checkout Tests
 
 - Successful checkout process.
 - Checkout with a missing first name.
@@ -43,7 +43,7 @@ The project contains five test suites covering different areas of the Sauce Demo
 - Checkout with a missing postal code.
 - Verification of checkout validation messages.
 
-# 4. Product Sorting Tests
+### 4. Product Sorting Tests
 
 - Sorting products by name (A to Z).
 - Sorting products by name (Z to A).
@@ -51,7 +51,7 @@ The project contains five test suites covering different areas of the Sauce Demo
 - Sorting products by price (high to low).
 - Verification of the resulting product order.
 
-# 5. End-to-End Test
+### 5. End-to-End Test
 
 A complete shopping journey combining multiple application features:
 
@@ -81,7 +81,7 @@ The reports can be opened in a web browser to review test results, execution det
 
 Screenshots captured during selected tests are stored separately in results/screenshots/.
 
-# Application Under Test
+## Application Under Test
 
 https://www.saucedemo.com/
 
